@@ -1,12 +1,12 @@
 # Getting Framework Tailwind
 
-## Tailwind Scroll Behavior
+### Tailwind Scroll Behavior
 ### `npm i tailwind-scroll-behavior`
 
-## Tailwind Scrollbar Hide
+### Tailwind Scrollbar Hide
 ### `npm i tailwind-scrollbar-hide`
 
-## Tailwind Scrollbar
+### Tailwind Scrollbar
 ### `npm i tailwind-scrollbar`
 
 # Getting Started with Create React App
