@@ -1,3 +1,14 @@
+# Getting Framework Tailwind
+
+## Tailwind Scroll Behavior
+### `npm i tailwind-scroll-behavior`
+
+## Tailwind Scrollbar Hide
+### `npm i tailwind-scrollbar-hide`
+
+## Tailwind Scrollbar
+### `npm i tailwind-scrollbar`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
