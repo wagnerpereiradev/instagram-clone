@@ -28,8 +28,8 @@ function Post(props) {
             <hr />
             <div className='comentar'>
                 <img src={Emoji} width="24px" />
-                <input autocaptalize="none" placeholder="Adicione um comentário..." type="text" className='box__comment' />
-                <button className='publish__comment'><b>Publicar</b></button>
+                <input autocaptalize="none" placeholder="Add a comment..." type="text" className='box__comment' />
+                <button className='publish__comment'><b>Post</b></button>
             </div>
         </div>
     );
