@@ -1,0 +1,39 @@
+.container {
+  height: 80px;
+  width: 80px;
+  margin-right: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.container img {
+  border-radius: 50px;
+  user-select: none;
+  object-fit: cover;
+}
+
+.container p {
+  font-size: 12px;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  user-select: none;
+  width: 72px;
+}
+
+.img__stories {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 66px;
+  height: 66px;
+}
+
+.picstories {
+  position: absolute;
+}

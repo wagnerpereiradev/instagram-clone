@@ -1,0 +1,45 @@
+.feed {
+    background-color: transparent;
+    margin: 83px 28px 0px 0px;
+    max-width: 614px;
+}
+
+@media (max-width: 1000px) {
+    .feed {
+        width: 600px;
+        margin: 83px 0px 0px 0px;
+    }
+}
+
+
+
+.stories {
+    background-color: white;
+    border: 1px solid rgb(219, 219, 219);
+    ;
+    width: 100%;
+    height: 120px;
+    border-radius: 3px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 0px;
+    padding-left: 15px;
+}
+
+@media (max-width: 600px) {
+    .feed {
+        width: 100vw;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .feed {
+        background-color: transparent;
+        margin: 0px 0px 53px 0px;
+        max-width: 614px;
+    }
+
+}

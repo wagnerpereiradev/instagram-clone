@@ -1,0 +1,118 @@
+.side__bar {
+  margin: 75px 0px 0px 0px;
+  width: 293px;
+  right: 0;
+  display: flex;
+}
+
+@media (max-width: 1000px) {
+  .side__bar {
+    display: none;
+  }
+}
+
+.side__menu {
+  width: 293px;
+  position: fixed;
+}
+
+.side__menu__profile {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.side__menu__profile img {
+  border-radius: 50px;
+}
+
+.username_name {
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.username_name b {
+  color: black;
+  font-weight: 600;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  user-select: none;
+  width: 225px;
+}
+
+.username_name p {
+  color: #8e8e8e;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  user-select: none;
+  width: 225px;
+}
+
+.suggestions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.suggestions b {
+  color: #8e8e8e;
+  font-weight: 500;
+}
+
+.suggestions button {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+
+.suggestions__profiles {
+  width: 293px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.suggestions__profiles div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.suggestions__profiles img {
+  border-radius: 32px;
+  margin-right: 15px;
+}
+
+.suggestions__profiles button {
+  font-size: 12px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.suggestions__profiles div b {
+  font-size: 14px;
+  font-weight: 600;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  user-select: none;
+  width: 100%;
+}
+
+.suggestions__profiles div p {
+  font-size: 12px;
+  color: #8e8e8e;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  user-select: none;
+  width: 100%;
+}

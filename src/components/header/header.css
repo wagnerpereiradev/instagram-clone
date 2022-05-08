@@ -1,0 +1,119 @@
+.header__app {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: white;
+  border-bottom: 1px solid rgb(219, 219, 219);
+  position: fixed;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+  width: 975px;
+  max-width: 975px;
+  margin: 0 auto;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  padding: 0px 0px 0px 24px;
+}
+
+
+.home__icon {
+  cursor: pointer;
+}
+
+.messenger__icon {
+  cursor: pointer;
+  margin-left: 22px;
+}
+
+.newpost__icon {
+  cursor: pointer;
+  margin-left: 22px;
+}
+
+.explore__icon {
+  cursor: pointer;
+  margin-left: 22px;
+}
+
+.notifications__icon {
+  cursor: pointer;
+  margin-left: 22px;
+}
+
+.profile__icon {
+  cursor: pointer;
+  margin-left: 22px;
+  border-radius: 24px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+.search__bar {
+  margin-left: 24px;
+  padding: 0px 16px;
+  background-color: #EFEFEF;
+  outline: 0;
+  border: 0;
+  border-radius: 8px;
+  width: 268px;
+  max-width: 268px;
+  height: 36px;
+  font-size: 16px;
+}
+
+@media (max-width: 640px) {
+  .search__bar {
+    display: none;
+  }
+
+}
+
+@media (max-width: 450px) {
+  .header__app {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+    border-top: 1px solid rgb(219, 219, 219);
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .navbar ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+  }
+
+}

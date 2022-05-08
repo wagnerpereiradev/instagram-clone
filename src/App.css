@@ -1,0 +1,13 @@
+.container__home {
+  display: flex;
+  justify-content: center;
+  background-color: #FAFAFA;
+}
+
+
+.home {
+  background-color: #FAFAFA;
+  display: flex;
+  justify-content: space-between;
+  max-width: 935px;
+}
