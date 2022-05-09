@@ -45,9 +45,9 @@ function Feed() {
                         username="natan_rocha_" />
                     <Stories picstories="https://media-exp1.licdn.com/dms/image/C4D03AQEfzYWpevgRVA/profile-displayphoto-shrink_800_800/0/1648663497894?e=1657756800&v=beta&t=CUIGKQcz2s-sNdPiYZ5m_p6FeJ5trpusC9MPWt0ygK4"
                         username="jg" />
-                    <Stories picstories="https://media-exp1.licdn.com/dms/image/D4D35AQE3bO_o846uYA/profile-framedphoto-shrink_200_200/0/1648666260981?e=1652072400&v=beta&t=djYOPIfoIyctYiQPtUvK-8gNR3wEMOeFbaYVT-z2YfU"
+                    <Stories picstories="https://media-exp1.licdn.com/dms/image/D4D35AQE3bO_o846uYA/profile-framedphoto-shrink_200_200/0/1648666260981?e=1652198400&v=beta&t=CONVG50GI0geGUTX8WB9PPpJJzedOKddYaS4Vn_ik8A"
                         username="muliro_mouura" />
-                    <Stories picstories="https://media-exp1.licdn.com/dms/image/D4E35AQGdSJYcjB6DeQ/profile-framedphoto-shrink_800_800/0/1645190783743?e=1652072400&v=beta&t=YbKw3eCsIBFqIAExkVFJzBlHz9RvkXNb85Wv_HLmc-Y"
+                    <Stories picstories="https://media-exp1.licdn.com/dms/image/D4E35AQGdSJYcjB6DeQ/profile-framedphoto-shrink_200_200/0/1645190783743?e=1652198400&v=beta&t=jdZP_Q6C0mGeFH9aAJzLutbcIYYdemed-nMu2I7x8Dw"
                         username="gu.reiis" />
                 </div>
 
